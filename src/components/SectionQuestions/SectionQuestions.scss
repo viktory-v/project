@@ -1,0 +1,29 @@
+.questions {  
+    width: 100%;
+    background-color: #242B33;
+
+    &__title {
+        margin-left: 0;
+        margin-bottom: 60px;
+        padding-top: 160px;;
+    }
+    
+    &__text {
+        display: inline-block;
+        width: 250px;
+        color: #ffffff;
+        font-size: 13px;
+        text-align: center;
+        margin-right: 35px;
+        vertical-align: middle;
+    }
+    
+    &__form {
+        display: inline-block;
+        margin-bottom: 180px;
+    }
+
+    &__input {
+        color: #ffffff;
+    }
+}

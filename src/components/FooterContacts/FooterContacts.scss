@@ -1,0 +1,32 @@
+.footer-contacts {
+    height: 149px;
+    li {
+        padding-bottom: 15px;
+    }
+    &__list {
+        font-size: 14px;
+        list-style: none;
+        margin: 0;
+    }
+
+    &__link {
+        color: #ffffff;
+        text-decoration: none; 
+    }
+}
+
+.accent-color {
+    color: #D4C17F;
+}
+
+.footer-soc {
+    display: flex;
+    justify-content: space-between;
+    width: 135px;
+    list-style: none;
+    
+    &__link {
+        color: #ffffff;
+        text-decoration: none; 
+    }
+}

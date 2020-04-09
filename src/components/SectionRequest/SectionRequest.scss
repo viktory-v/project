@@ -1,0 +1,53 @@
+.request {
+    width: 100%;
+    height: 560px;
+    background: linear-gradient(180deg, #242B33 10.42%, rgba(36, 43, 51, 0) 50.52%, #242B33 90.1%), linear-gradient(0deg, rgba(36, 43, 51, 0.9), rgba(36, 43, 51, 0.9)), url('../../images/bgc-2.jpeg') no-repeat 50% 50%;
+    background-size: cover;
+
+    &__title {
+        padding-top: 180px;
+        padding-bottom: 25px;
+    }
+    &__text {
+        display: inline-block;
+        padding-top: 25px;
+        padding-right: 30px;
+        width: 535px;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #fff;
+    }
+
+    &__form {
+        display: inline-block;
+        width: 570px;
+        // height: 135px;
+        // padding-bottom: 180px;
+        position: relative;
+    }
+
+    &__form-text {
+        display: inline-block;
+        width: 255px;
+        // height: 28px;
+        font-size: 13px;
+        text-align: center;
+        color: #E7E7E7
+    }
+
+    &__input {
+        padding-right: 30px;   
+    }
+
+    &__button {
+        margin-top: 35px;
+        margin-left: 30px;
+    }
+
+    &__input:nth-child(2) {
+        margin-right: 0;
+    }
+
+}
+

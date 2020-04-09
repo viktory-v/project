@@ -1,0 +1,25 @@
+.mainsecreen-contacts {
+    padding-top: 200px;
+    // padding-bottom: 74px;
+    width: 582px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-bottom: 74px;
+
+    &__item {
+        display: flex;
+        font-size: 18px;
+        line-height: 21px;
+        color: #fff;
+    }
+
+    &__icon {
+        padding-right: 18px;
+    }
+
+    &__phone {
+        color: #fff;
+        text-decoration: none;
+    }
+}

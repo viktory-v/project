@@ -1,0 +1,17 @@
+.mainscreen {
+    //  height:    100vh;
+     background: linear-gradient(180deg, #242B33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242B33 92.19%), url(../../images/logo-1.jpeg) no-repeat 50%;
+     padding-top: 95px;
+     background-size: cover;
+
+     &__title {
+        color: #D4C17F;
+        font-size: 48px;
+        text-align: center;
+        padding-top: 200px;
+    }
+
+    &__mouse {
+        margin-top: 100px;
+    }
+}

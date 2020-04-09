@@ -1,0 +1,56 @@
+.apartmens {
+    width: 100%;
+    background-color: #242B33;
+
+    &__fotos {
+        max-width: 1100px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__foto {
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        padding-right: 30px;
+        padding-bottom: 30px;
+        img {
+            position:relative;
+            background-color: #242B33;
+        }
+    }
+
+    &__foto:nth-child(2n) {
+        padding-right: 0;
+    }
+
+    &__foto:nth-child(3), &__foto:nth-child(4) {
+        padding-bottom: 0;
+    }
+
+    &__text {
+        position: absolute;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        color: #FFFFFF;
+        padding-left: 55px;
+        text-align: left;
+        top: 250px;
+    }
+
+    &__title {
+        margin-bottom: 100px;
+    }
+}
+
+.overlay {
+    background-image: linear-gradient(180deg, rgba(36, 43, 51, 0) 0%, #242B33 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 535px;
+    height: 320px;
+}

@@ -1,0 +1,25 @@
+.characteristic {
+    background-color: #242B33;
+    width: 100%;
+    // height: 420px;
+   
+    &__items {
+        width: 794px;
+        // height: 180px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        margin: auto;
+        padding-top: 120px;
+        padding-bottom: 120px;
+        }
+        
+    &__text {
+        padding-top: 50px;
+        color: #ffffff;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 27px;
+    }
+}
+
